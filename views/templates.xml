@@ -1,0 +1,44 @@
+<odoo>
+    <data>
+      <template id="index">
+           <title>Academy</title>
+
+
+           <xpath expr="//link[@rel='stylesheet']" position="after">
+            <base href="/" />
+             <app-root></app-root>
+             <link rel="icon" type="image/x-icon" href="/modulo_pruebas/static/src/js/favicon.ico"/>
+            <script src="/modulo_pruebas/static/src/js/runtime-es2015.js" type="module"></script>
+            <script src="/modulo_pruebas/static/src/js/polyfills-es2015.js" type="module"></script>
+            <script src="/modulo_pruebas/static/src/js/runtime-es5.js" ></script>
+            <script src="/modulo_pruebas/static/src/js/polyfills-es5.js" ></script>
+            <script src="/modulo_pruebas/static/src/js/main-es2015.js" type="module"></script>
+            <script src="/modulo_pruebas/static/src/js/main-es5.js"></script>
+          </xpath>
+
+           
+
+       </template>
+
+
+
+        <!-- <template id="listing"> -->
+        <!--   <ul> -->
+        <!--     <li t-foreach="objects" t-as="object"> -->
+        <!--       <a t-attf-href="#{ root }/objects/#{ object.id }"> -->
+        <!--         <t t-esc="object.display_name"/> -->
+        <!--       </a> -->
+        <!--     </li> -->
+        <!--   </ul> -->
+        <!-- </template> -->
+        <!-- <template id="object"> -->
+        <!--   <h1><t t-esc="object.display_name"/></h1> -->
+        <!--   <dl> -->
+        <!--     <t t-foreach="object._fields" t-as="field"> -->
+        <!--       <dt><t t-esc="field"/></dt> -->
+        <!--       <dd><t t-esc="object[field]"/></dd> -->
+        <!--     </t> -->
+        <!--   </dl> -->
+        <!-- </template> -->
+    </data>
+</odoo>
